@@ -13,7 +13,7 @@ CREATE TABLE meat_poultry_egg_inspect (
 );
 
 BULK INSERT meat_poultry_egg_inspect
-FROM 'C:\Users\HIM Printassia Bey\Documents\SelfTaught\Developer\SQL\MPI_Directory_by_Establishment_Name.csv'
+FROM 'C:\Users\Desktop\MPI_Directory_by_Establishment_Name.csv'
 WITH (
 	FORMAT= 'CSV'
 	,FIRSTROW = 2
