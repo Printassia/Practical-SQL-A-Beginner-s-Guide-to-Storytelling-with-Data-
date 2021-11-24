@@ -106,7 +106,7 @@ CREATE TABLE us_counties_2010 (
 );
 
 BULK INSERT us_counties_2010
-FROM 'C:\Users\HIM Printassia Bey\Documents\SelfTaught\Developer\SQL\us_counties_2010.csv'
+FROM 'C:\Users\Desktop\us_counties_2010.csv'
 WITH (FORMAT='CSV'
 	 ,FIRSTROW = 2
 	 ,FIELDTERMINATOR = ',');
